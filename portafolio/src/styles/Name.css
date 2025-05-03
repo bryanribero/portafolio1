@@ -1,0 +1,10 @@
+h1 {
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+}
+.description p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.58);
+}

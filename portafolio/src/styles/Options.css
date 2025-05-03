@@ -1,0 +1,39 @@
+.nav-item {
+    color: rgba(255, 255, 255, 0.58);
+    transition: all 0.2s ease-in-out;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.58);
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+  
+  .line {
+    border-top: 2px solid rgba(255, 255, 255, 0.58); /* Define el estilo de la línea */
+    display: inline-block; /* Permite establecer el ancho */
+    width: 60px; /* Ancho inicial (ajusta este valor) */
+    margin-right: 0.75rem; /* Espacio entre la línea y el texto */
+    transition: all 0.2s ease-in-out;
+  }
+
+  .line-active {
+    border-top: 2px solid rgb(255, 255, 255); 
+    display: inline-block; 
+    width: 150px; 
+    margin-right: 0.75rem; 
+  }
+
+ .nav-item-active {
+    color: white;
+ }
+
+ .nav-item:hover {
+    color: rgb(255, 255, 255);;
+ }
+
+ .nav-item:hover .line {
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 150px;
+}

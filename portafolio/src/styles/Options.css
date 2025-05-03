@@ -11,10 +11,10 @@
   }
   
   .line {
-    border-top: 2px solid rgba(255, 255, 255, 0.58); /* Define el estilo de la línea */
-    display: inline-block; /* Permite establecer el ancho */
-    width: 60px; /* Ancho inicial (ajusta este valor) */
-    margin-right: 0.75rem; /* Espacio entre la línea y el texto */
+    border-top: 2px solid rgba(255, 255, 255, 0.58); 
+    display: inline-block; 
+    width: 60px; 
+    margin-right: 0.75rem; 
     transition: all 0.2s ease-in-out;
   }
 

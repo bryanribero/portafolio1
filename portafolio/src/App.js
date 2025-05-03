@@ -1,6 +1,7 @@
 import './App.css';
 import { Name } from './componentes/Name'
 import { Options } from './componentes/Options';
+import { Idioma } from './componentes/Idioma'
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <header>
         <Name />
         <Options />
+        <Idioma />
       </header>
 
       <main>

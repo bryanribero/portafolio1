@@ -15,4 +15,5 @@
 .idioma:hover {
     color: #43b5c9c0;
     border: solid 1px #52a0ae2f; 
+    box-shadow: 0 0 4px 0;
 }

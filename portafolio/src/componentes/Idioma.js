@@ -11,13 +11,13 @@ const cambiarIdioma = (idioma) => {
   return (
     <div className='d-flex'>
     <div
-      className={`p-2 me-3 idioma ${activo === 'Español' ? 'active' : ''}`}
+      className={`p-1 me-3 ms-3 idioma ${activo === 'Español' ? 'active' : ''}`}
       onClick={() => cambiarIdioma('Español')}
     >
       Español
     </div>
     <div
-      className={`p-2 idioma ${activo === 'English' ? 'active' : ''}`}
+      className={`p-1 idioma ${activo === 'English' ? 'active' : ''}`}
       onClick={() => cambiarIdioma('English')}
     >
       English

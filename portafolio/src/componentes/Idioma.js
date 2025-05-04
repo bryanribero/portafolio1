@@ -10,18 +10,18 @@ const cambiarIdioma = (idioma) => {
 
   return (
     <div className='d-flex'>
-    <div
+    <button
       className={`p-1 me-3 ms-3 idioma ${activo === 'Español' ? 'active' : ''}`}
       onClick={() => cambiarIdioma('Español')}
     >
       Español
-    </div>
-    <div
+    </button>
+    <button
       className={`p-1 idioma ${activo === 'English' ? 'active' : ''}`}
       onClick={() => cambiarIdioma('English')}
     >
       English
-    </div>
+    </button>
   </div>
   )
 }
